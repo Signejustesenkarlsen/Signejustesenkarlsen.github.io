@@ -13,8 +13,14 @@ caseBoks.innerHTML = `
     <p>${projekt.proces}</p>
 `;
 
-caseBoks.innerHTML += `<h2>Billeder</h2>`;
+
+let galleri = "";
 
 for (const billede of projekt.billeder) {
-    caseBoks.innerHTML += `<a href="${billede}" target="_blank"><img src="${billede}" alt="${projekt.titel}" class="case-billede"></a>`;
+    galleri += `<a href="${billede}" target="_blank"><img src="${billede}" alt="${projekt.titel}" class="case-billede"></a>`;
 }
+
+caseBoks.innerHTML += `
+    <h2>Billeder</h2>
+    <div class="galleri">${galleri}</div>
+`;

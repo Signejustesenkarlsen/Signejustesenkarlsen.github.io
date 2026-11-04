@@ -116,8 +116,33 @@ main p {
     border: 1px solid #111;
 }
 
+.galleri {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    max-width: 900px;
+}
+
 .case-billede {
-    width: 360px;
+    width: 100%;
+    display: block;
     border: 1px solid #111;
-    margin: 0 16px 16px 0;
+}
+
+#case p {
+    max-width: 640px;
+}
+
+#case h1 {
+    font-size: 80px;
+}
+
+.tilbage {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 24px;
 }

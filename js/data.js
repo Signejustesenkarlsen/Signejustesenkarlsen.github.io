@@ -23,6 +23,6 @@ const projekter = [
             "img/opskrifter-opskrift.png",
             "img/opskrifter-madplan.png"
         ],
-    link: "#"
+        link: "#"
     }
 ];
