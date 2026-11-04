@@ -199,6 +199,20 @@ main p {
     max-width: none;
 }
 
+.forside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.forside-billede {
+    background-color: #ccc;
+    aspect-ratio: 4 / 5;
+    max-height: 70vh;
+    width: 100%;
+}
+
 @media (max-width: 600px) {
 
     h1,
@@ -226,6 +240,10 @@ main p {
     }
 
     .om-bokse {
+        grid-template-columns: 1fr;
+    }
+    
+        .forside {
         grid-template-columns: 1fr;
     }
 }
