@@ -102,3 +102,16 @@ main p {
     line-height: 1.6;
     max-width: 300px;
 }
+
+#projekter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.projekt {
+    background-color: #fff;
+    padding: 24px;
+    width: 260px;
+    border: 1px solid #111;
+}
