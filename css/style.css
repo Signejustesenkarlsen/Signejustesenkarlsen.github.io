@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 main {
-    margin-left: 35px;
+    margin: 0 35px;
 }
 
 a {
@@ -183,7 +183,24 @@ main p {
     max-height: 90%;
 }
 
+.om-bokse {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.om-boks {
+    background-color: #fff;
+    border: 1px solid #111;
+    padding: 24px;
+}
+
+.om-boks p {
+    max-width: none;
+}
+
 @media (max-width: 600px) {
+
     h1,
     #case h1 {
         font-size: 48px;
@@ -206,5 +223,9 @@ main p {
 
     main {
         margin: 0 20px;
+    }
+
+    .om-bokse {
+        grid-template-columns: 1fr;
     }
 }
