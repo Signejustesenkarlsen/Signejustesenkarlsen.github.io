@@ -24,5 +24,18 @@ const projekter = [
             "img/opskrifter-madplan.png"
         ],
         link: "#"
+    },
+    {
+        id: "kaffe",
+        titel: "Kaffeinterface",
+        beskrivelse: "Et redesign af interfacet til en kaffemaskine, lavet på Codecamp 1.",
+        proces: "Vi arbejdede i studiegruppen med redesigning af et interface fra en kaffemaskine. Her fik vi stillet en række opgaver, der kunne hjælpe os med at gøre kaffemaskinens interface mere indbydende og brugervenligt at bruge.",
+        billeder: [
+            "img/kaffe-1.png",
+            "img/kaffe-2.png",
+            "img/kaffe-3.png",
+            "img/kaffe-4.png"
+        ],
+        link: "#"
     }
 ];
