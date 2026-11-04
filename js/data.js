@@ -16,8 +16,13 @@ const projekter = [
         id: "opskrifter",
         titel: "Opskriftshjemmeside",
         beskrivelse: "En hjemmeside med mad- og kageopskrifter",
-        proces: "Dette projekt startede under en frivillig workshop, hvor vi lærte at bruge grid og flex til strukturering af indhold på HTML-sider. Derudover var det også en mulighed for at opbygge mere af siden dynamisk med Javascript, som vi ikke havde lært på kurset, da vi startede vores første hjemmeside.",
-        billeder: [],
-        link: "#"
+        proces: "Dette projekt startede under en frivillig workshop, hvor vi lærte at bruge grid og flex til strukturering af indhold på HTML-sider. Derudover var det også en mulighed for at opbygge mere af siden dynamisk med Javascript, som vi ikke havde lært på kurset, da vi startede vores første hjemmeside. Derudover er det også en side, hvor jeg har eksperimenteret lidt med brug af AI-assistenten Claude, for at se, hvad den kan bruges til",
+        billeder: [
+            "img/opskrifter-index.png",
+            "img/opskrifter-familieopskrifter.png",
+            "img/opskrifter-opskrift.png",
+            "img/opskrifter-madplan.png"
+        ],
+    link: "#"
     }
 ];
