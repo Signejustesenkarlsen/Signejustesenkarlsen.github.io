@@ -213,6 +213,43 @@ main p {
     width: 100%;
 }
 
+.kontakt-bokse {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.kontakt-kort {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #fff;
+    border: 1px solid #111;
+    padding: 32px;
+    text-decoration: none;
+    font-weight: normal;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.kontakt-kort:hover {
+    background-color: #111;
+    color: #f3f3f3;
+}
+
+.kontakt-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.kontakt-stor {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    word-break: break-word;
+}
+
 @media (max-width: 600px) {
 
     h1,
@@ -242,8 +279,12 @@ main p {
     .om-bokse {
         grid-template-columns: 1fr;
     }
-    
-        .forside {
+
+    .forside {
+        grid-template-columns: 1fr;
+    }
+
+    .kontakt-bokse {
         grid-template-columns: 1fr;
     }
 }
