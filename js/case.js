@@ -17,10 +17,24 @@ caseBoks.innerHTML = `
 let galleri = "";
 
 for (const billede of projekt.billeder) {
-    galleri += `<a href="${billede}" target="_blank"><img src="${billede}" alt="${projekt.titel}" class="case-billede"></a>`;
+    galleri += `<img src="${billede}" alt="${projekt.titel}" class="case-billede">`;
 }
 
 caseBoks.innerHTML += `
     <h2>Billeder</h2>
     <div class="galleri">${galleri}</div>
 `;
+
+const lightbox = document.getElementById("lightbox");
+const lightboxBillede = document.getElementById("lightbox-billede");
+
+for (const billede of document.querySelectorAll(".case-billede")) {
+    billede.addEventListener("click", function () {
+        lightboxBillede.src = billede.src;
+        lightbox.classList.add("vis");
+    });
+}
+
+lightbox.addEventListener("click", function () {
+    lightbox.classList.remove("vis");
+});
