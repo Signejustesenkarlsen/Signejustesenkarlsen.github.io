@@ -115,3 +115,9 @@ main p {
     width: 260px;
     border: 1px solid #111;
 }
+
+.case-billede {
+    width: 360px;
+    border: 1px solid #111;
+    margin: 0 16px 16px 0;
+}

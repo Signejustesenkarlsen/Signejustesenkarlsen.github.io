@@ -1,15 +1,3 @@
-const projekter = [
-    {   titel: "Syhjemmeside",
-        beskrivelse: "En hjemmeside med syprojekter, lavet på programmeringskursus 1. semester",
-        link: "#"
-    },
-    {
-        titel: "Opskriftshjemmeside",
-        beskrivelse: "En hjemmeside med mad- og kageopskrifter",
-        link: "#"
-    }
-];
-
 const boks = document.getElementById("projekter");
 
 for (const projekt of projekter){
@@ -17,7 +5,7 @@ for (const projekt of projekter){
     <article class="projekt">
         <h2>${projekt.titel}</h2>
         <p>${projekt.beskrivelse}</p>
-        <a href="${projekt.link}">Se projektet</a>
+        <a href="projekt.html?id=${projekt.id}">Se projektet</a>
     </article>
     `;
 }
