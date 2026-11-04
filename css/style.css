@@ -39,3 +39,21 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+
+@keyframes banner {
+    from {transform: translateX(0);}
+    to {transform: translateX(100dvw);}
+}
+
+#tekst {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color:;
+
+    display: flex;
+    gap: 10px;
+    animation-name: banner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
