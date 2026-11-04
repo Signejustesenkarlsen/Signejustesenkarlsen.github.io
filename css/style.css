@@ -102,7 +102,7 @@ main p {
     line-height: 1.6;
     max-width: 300px;
 }
-
+#seneste,
 #projekter {
     display: flex;
     flex-wrap: wrap;
