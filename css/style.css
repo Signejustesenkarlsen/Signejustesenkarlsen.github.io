@@ -41,8 +41,13 @@ nav a:hover {
 }
 
 @keyframes banner {
-    from {transform: translateX(0);}
-    to {transform: translateX(100dvw);}
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
 }
 
 #tekst {
@@ -57,15 +62,21 @@ nav a:hover {
 #bannertekst {
     color: #f3f3f3;
     animation-name: banner;
-    animation-duration: 5s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
+    display: flex;
+    gap: 80px;
+    white-space: nowrap;
+    width: max-content;
+    padding-right: 80px;
+    animation-timing-function: linear;
 }
 
-#main {
+main {
     margin-left: 35px;
 }
 
 a {
-color: #111;
-font-weight: bold;
+    color: #111;
+    font-weight: bold;
 }
